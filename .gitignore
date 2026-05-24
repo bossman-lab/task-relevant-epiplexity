@@ -1,0 +1,32 @@
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# LaTeX build intermediates
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local environment
+.env
+.env.*
+*.key
+*.pem
+
+# Third-party source paper copies kept only for local reading
+2601.03220.pdf
+2601.03220.txt

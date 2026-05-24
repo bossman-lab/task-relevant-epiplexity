@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#455a64"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#263238}.title{font-size:19px;font-weight:700}.box-title{font-size:15px;font-weight:700}.box-sub{font-size:12px}.arrow{stroke:#455a64;stroke-width:1.6;marker-end:url(#arrow)}</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="38" class="title">Task-relevant epiplexity separates structure from useful structure</text>
+<rect x="40" y="92" width="150" height="72" rx="7" fill="#f7fafc" stroke="#b8c7d3"/>
+<text x="115.0" y="122" text-anchor="middle" class="box-title">Data X</text>
+<text x="115.0" y="144" text-anchor="middle" class="box-sub">raw structure + noise</text>
+<rect x="230" y="92" width="170" height="72" rx="7" fill="#f7fafc" stroke="#b8c7d3"/>
+<text x="315.0" y="122" text-anchor="middle" class="box-title">Observer Ω</text>
+<text x="315.0" y="144" text-anchor="middle" class="box-sub">model, tokenizer, compute</text>
+<rect x="440" y="92" width="175" height="72" rx="7" fill="#f7fafc" stroke="#b8c7d3"/>
+<text x="527.5" y="122" text-anchor="middle" class="box-title">SΩ(X)</text>
+<text x="527.5" y="144" text-anchor="middle" class="box-sub">extractable structure</text>
+<rect x="655" y="92" width="150" height="72" rx="7" fill="#f7fafc" stroke="#b8c7d3"/>
+<text x="730.0" y="122" text-anchor="middle" class="box-title">Task Z</text>
+<text x="730.0" y="144" text-anchor="middle" class="box-sub">target relevance</text>
+<rect x="845" y="92" width="105" height="72" rx="7" fill="#f7fafc" stroke="#b8c7d3"/>
+<text x="897.5" y="122" text-anchor="middle" class="box-title">Transfer</text>
+<text x="897.5" y="144" text-anchor="middle" class="box-sub">measured gain</text>
+<line x1="190" y1="128" x2="222" y2="128" class="arrow"/>
+<line x1="400" y1="128" x2="432" y2="128" class="arrow"/>
+<line x1="615" y1="128" x2="647" y2="128" class="arrow"/>
+<line x1="805" y1="128" x2="837" y2="128" class="arrow"/>
+<text x="526" y="215" text-anchor="middle" font-size="13">TREΩ(X; Z) = transfer gain beyond matched controls</text>
+<text x="526" y="238" text-anchor="middle" font-size="13">Context adds temporary structure: CREΩ(K; Y | Q)</text>
+</svg>

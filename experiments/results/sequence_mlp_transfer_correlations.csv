@@ -1,0 +1,4 @@
+metric,pearson_with_transfer,spearman_with_transfer
+final_val_loss,-0.0279,-0.0951
+learning_progress_proxy,-0.1084,-0.0163
+loss_reduction,-0.0162,-0.0022

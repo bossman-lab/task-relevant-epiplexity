@@ -1,0 +1,10 @@
+scope,metric,pearson_with_transfer,spearman_with_transfer
+all_runs,total_structure_proxy,-0.0252,0.0843
+all_runs,target_alignment,0.9086,0.8168
+all_runs,tre_proxy,0.6004,0.7230
+k=4,total_structure_proxy,-0.0201,0.0908
+k=4,target_alignment,0.9805,0.8371
+k=4,tre_proxy,0.7904,0.8378
+k=12,total_structure_proxy,-0.0812,-0.1384
+k=12,target_alignment,0.8578,0.7341
+k=12,tre_proxy,0.5591,0.5503
